@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "F1Black";
+    src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Black/Formula1-Black.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "F1Wide";
+    src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Wide/Formula1-Wide.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "F1Bold";
+    src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "F1";
+    src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2") format("woff2");
+  }
+.bodyContents{
+    margin: 150px;
+}
+.heading{
+    font-family: F1Black;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px;
+    border: 10px solid black;
+    border-top-right-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+.heading >h1{
+    margin-top: 10px;
+}
+.infocontent{
+    height: 70px;
+    background-color: #f9f9f9;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Titillium Web";
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+} 
+.card{
+    display: inline-block;
+    height: 298px;
+    width: 510px;
+    border: 3px solid black;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+    padding: 30px;
+    margin: 10px;
+    padding-top: 8px;
+    padding-right: 8px;
+}
+/* .card:hover{
+    height: 318px;
+} */
+.card:hover{
+   border-color: red;
+}
+.card-head {
+    font-family: "F1Wide";
+    margin-top: 10px;
+
+}
+/* .card-head:hover{
+    margin-top: 20px;
+} */
+.point1{
+    font-family: "F1Black";
+    font-size: 50px;
+    display: inline;
+}
+.point2{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+.pts{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.pointnum{
+    margin-top: 0px;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.hr1{
+    margin-right: 10px;
+    margin-top: 0px;
+}
+.subtitle{
+    font-family: "F1Bold";
+    font-size: 25px;
+    border-left: 5px solid #3671C6;
+    padding-left: 10px;
+    display: inline;
+}
+.logo{
+    display: inline;
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.hr2{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.sub{
+    display: inline;
+    font-family: "F1";
+    border: 1px solid black;
+    border-left: 0px;
+    border-top: 0px;
+    width: 47%;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+.sub > span{
+    font-family: "F1Bold";
+}
+.sub1{
+    float: left;
+    padding-bottom: 0px;
+}
+.sub2{
+    float: right;
+    padding-bottom: 0px;
+}
+.car{
+    height: 100%;
+    width: 98%;
+    margin-top: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #E10600;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 45px;
+    left: 0px;
+    
+  }
+  
+ 
+  .navbar a {
+    height: 100%;
+    float: left; 
+    color: #ffffff; 
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "F1";
+    padding-top: 20px;
+  }
+  
+ 
+  .navbar .logo-left {
+    float: left;
+    width: 130px;
+    height: 32.5px;
+    margin: 20px;
+  }
+
+  .navbar a:hover {
+    background-color:#000000;
+  }
+  
+  .navtop{
+    left: 0px;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-left1{
+    float: left;
+    height: 30px;
+    width: 35px;
+    margin-top: 6px;
+    margin-left: 4px;
+    border-right: 1px solid black;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .navtop > ul{
+    display: flex;
+    list-style-type: none;
+  }
+
+  li{
+    padding: 10px;
+    padding-top: 0px;
+    font-family: "F1Bold";
+    font-size: 12px;
+  }
+
+  li > span{
+    font-family: "Titillium Web"; 
+  }
+  .navrightitems{
+    margin-left: 100px;
+  }
+  .navrightitems > li{
+    font-family: "Titillium Web";
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .navrightitems > li:hover{
+    color: red;
+    border-bottom: 4px solid #E10600;
+    padding-bottom: 20px;
+  }
+  .button {
+    font-family: "Titillium Web";
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    margin: 3px;
+    padding-top: 7px;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #E10600;
+  } 
+  .sign-in {
+      background-color: black;
+  }
+  
+  .subscribe {
+      background-color: #E10600;
+  }
+  .logo-right1{
+    height: 12px;
+    width: 75px;
+    margin: 20px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+  }
+  .heros{
+    height: 50px;
+    width: 50px;
+    float: right;
+  }
