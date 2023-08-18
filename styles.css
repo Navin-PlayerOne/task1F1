@@ -17,6 +17,9 @@
 .bodyContents{
     margin: 150px;
 }
+body{
+  margin: 0px;
+}
 .heading{
     font-family: F1Black;
     font-weight: 400;
@@ -266,4 +269,25 @@
     height: 50px;
     width: 50px;
     float: right;
+  }
+  footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    left: 0px;
+  }
+
+  .foo{
+    margin-top: 40px;
+    margin-right: 100px;
+    float: right;
+    color: white;
+    font-family: "Titillium Web";
+  }
+
+  .fooimg{
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 21px;
+    width: 84px;
   }
