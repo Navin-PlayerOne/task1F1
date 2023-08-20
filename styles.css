@@ -293,7 +293,7 @@ body{
   }
 
 /* Small devices (phones) */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   body{
     overflow-x: auto;
     margin: 0px;
@@ -345,8 +345,17 @@ body{
   .heros{
     display: none;
   }
+  .line2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hr2{
+    margin-top: 5px;
+  }
   .subtitle{
+    margin-top: 10px;
     font-size: 20px;
+    margin-left: 1px;
   }
   .point1{
     font-size: 42px;
