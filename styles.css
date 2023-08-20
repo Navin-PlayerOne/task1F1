@@ -291,3 +291,98 @@ body{
     height: 21px;
     width: 84px;
   }
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  body{
+    overflow-x: auto;
+    margin: 0px;
+  }
+  .navtop{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+  .heading{
+    margin-top: 50px;
+  }
+  .mobnav{
+    display: flex;
+    height: 54px;
+    background-color: #E10600;
+    justify-content: space-between;
+  }
+  .mobnavuser{
+    margin-right: 10px;
+    height: 34px;
+    width: 44px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .mobnavimg{
+    margin-left: 10px;
+    height: 20px;
+    width: 80px;
+    margin-top: 15px;
+  }
+  .bodyContents{
+    margin: 50px 10px;
+  }
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 15px;
+    min-width: 300px;
+    margin-right: 10px;
+  }
+
+  .card-head {
+    font-size: 18px;
+  }
+
+  .heros{
+    display: none;
+  }
+  .subtitle{
+    font-size: 20px;
+  }
+  .point1{
+    font-size: 42px;
+  }
+  .pointnum{
+    font-size: 18px;
+  }
+  .pts{
+    font-size: 12px;
+  }
+  .sub{
+    font-size: 14px;
+  }
+  .sub2{
+    width: 45%;
+  }
+  .infocontent{
+    font-family: "Titillium Web";
+    font-size: 15px;
+    min-width: 300px;
+  }
+  .infocontent > p{
+    margin-top: 10px;
+  }
+  .heading > h1{
+    font-size: 32px;
+  }
+  .fooimg{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .foo{
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
+
